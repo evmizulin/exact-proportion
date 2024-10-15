@@ -20,11 +20,10 @@
     "node": ">=16.0.0"
   },
   "keywords": [
-    "normalization",
-    "scaling",
-    "normalize",
+    "proportion",
+    "math",
     "number",
-    "range"
+    "two ratios"
   ],
   "bugs": {
     "url": "https://github.com/evmizulin/exact-proportion/issues"
