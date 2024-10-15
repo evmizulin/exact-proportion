@@ -1,6 +1,6 @@
 {
   "name": "exact-proportion",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Calculates a proportion",
   "main": "./build/index.js",
   "author": "Evgeny Mizulin",
