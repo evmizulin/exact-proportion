@@ -1,0 +1,36 @@
+{
+  "name": "exact-proportion",
+  "version": "0.0.0",
+  "main": "./build/index.js",
+  "author": "Evgeny Mizulin",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "eslint-config-ev-node": "^1.3.3"
+  },
+  "scripts": {
+    "test": "jest ./src",
+    "test-debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand ./src",
+    "build": "rm -rf build && tsc -p tsconfig.json",
+    "release": "./release.sh"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "normalization",
+    "scaling",
+    "normalize",
+    "number",
+    "range"
+  ],
+  "bugs": {
+    "url": "https://github.com/evmizulin/exact-proportion/issues"
+  },
+  "homepage": "https://github.com/evmizulin/exact-proportion",
+  "dependencies": {
+    "exact-math": "^2.2.3"
+  }
+}
