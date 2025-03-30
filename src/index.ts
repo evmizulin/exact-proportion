@@ -1,15 +1,11 @@
-import exactMath from 'exact-math';
-import assert from 'assert/strict';
-
-export const exactProportion = {
+export const proportion = {
     a: (a: number) => ({
         ratioB: (b: number) => ({
             likeC: (c: number) => ({
-                ratioX: () => {
-                    assert(a !== 0);
-                    return exactMath.div(exactMath.mul(c, b), a);
-                },
+                ratioX: () => proportion.div(proportion.mul(c, b), a),
             }),
         }),
     }),
+    div: (a: number, b: number) => a / b,
+    mul: (a: number, b: number) => a * b,
 };
