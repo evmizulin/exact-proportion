@@ -1,6 +1,7 @@
 #!/bin/bash
 
 git checkout main &&
+npm run build &&
 
 # up version
 npm version $VERSION &&
